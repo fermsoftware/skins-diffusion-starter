@@ -38,5 +38,5 @@ structure under "Resources". Ensure that the required resource files are
 available before initializing AssetRef.
 """
 
-ast = AssetRef("./Resources/AssetRefs/Hero/150_AssetRef.bytes", 15009)
-ast.modify("output")
+asr = AssetRef("./Resources/AssetRefs/Hero/150_AssetRef.bytes", 15009)
+asr.modify("output")
