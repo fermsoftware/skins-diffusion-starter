@@ -1,0 +1,52 @@
+
+Resources Directory Structure
+
+Skins Diffusion expects a specific resource layout extracted from the 
+game client. Place all required files inside the `Resources/` directory 
+while preserving the original folder hierarchy.
+
+skins-diffusion/
+├── Resources/
+│   ├── Ages/
+│   │   └── Prefab_Characters/
+│   │       └── Prefab_Hero/
+│   │           ├── Actor_<XXX>_Actions.pkg.bytes
+│   │           ├── ...
+│   │           └── CommonActions.pkg.bytes
+│   ├── AssetRefs/
+│   │   └── Hero/
+│   │       ├── <XXX>_AssetRef.bytes
+│   │       └── ...
+│   ├── Databin/
+│   │   └── Client/
+│   │       ├── Actor/
+│   │       │   └── heroSkin.bytes
+│   │       ├── Shop/
+│   │       │   └── HeroSkinShop.bytes
+│   │       ├── Skill/
+│   │       │   ├── liteBulletCfg.bytes 
+│   │       │   └── skillmark.bytes
+│   │       └── Sound/
+│   │           ├── BattleBank.bytes 
+│   │           ├── ChatSound.bytes 
+│   │           ├── HeroSound.bytes 
+│   │           ├── LobbyBank.bytes 
+│   │           └── LobbySound.bytes 
+│   └── Prefab_Characters/
+│       ├── Actor_<XXX>_Infos.pkg.bytes
+│       └── ...
+
+
+Usage
+-----
+
+1. Extract the required game files.
+2. Place them in the `Resources/` directory following the structure shown above.
+
+
+Note
+----
+
+1. The directory structure must be preserved exactly as shown above.
+2. Missing resource files may cause processing failures or incomplete modifications.
+3. `<XXX>` represents a hero ID.

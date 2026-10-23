@@ -1,0 +1,5 @@
+{
+    // Characters cycled through by the Toggle Quotes extension
+    // when invoking the "Toggle Quotes" command.
+    "togglequotes.chars": ["\"", "'", "`"]
+}
