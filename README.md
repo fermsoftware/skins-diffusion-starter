@@ -79,4 +79,4 @@ python3 examples/example_binaryx.py
 
 ### 📜 License
 
-Please refer to the [LICENSE](https://github.com/wxrayut/skins-diffusion/blob/main/LICENSE) file for the terms and conditions governing the use and distribution of Skins Diffusion.
+Please refer to the [LICENSE](https://github.com/fermsoftware/skins-diffusion/blob/main/LICENSE) file for the terms and conditions governing the use and distribution of Skins Diffusion.
