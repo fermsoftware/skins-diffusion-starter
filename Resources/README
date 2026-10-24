@@ -5,7 +5,7 @@ Skins Diffusion expects a specific resource layout extracted from the
 game client. Place all required files inside the `Resources/` directory 
 while preserving the original folder hierarchy.
 
-skins-diffusion/
+skins-diffusion-starter/
 ├── Resources/
 │   ├── Ages/
 │   │   └── Prefab_Characters/
