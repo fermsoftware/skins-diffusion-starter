@@ -67,5 +67,5 @@ The pair form allows the source and target IDs to be specified
 independently for each task.
 """
 
-d = Databin([14111, 15009])
-d.modify("output")
+db = Databin([14111, 15009])
+db.modify("output")
