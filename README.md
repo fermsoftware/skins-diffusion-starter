@@ -31,8 +31,8 @@ Create and activate a Python virtual environment:
 
 ```bash
 # Windows
-python -m venv .venv
-.venv\Scripts\activate
+python -m venv venv
+venv\Scripts\activate
 
 # Linux/macOS
 python3 -m venv venv
